@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build output
+.next/
+out/
+
+# Raw data (large CSVs - download from gov.uk)
+data/raw/*.csv
+data/raw/*.txt
+data/raw/*.json
+*.db
+
+# Generated JSON data (rebuild with: python3 scripts/build-db.py)
+public/schools-details.json
+public/schools-markers.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+workspace/school-finder/memory/
+memory/
+memory/
+memory/
